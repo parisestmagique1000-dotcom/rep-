@@ -1,11 +1,11 @@
 
 import React, { useState, useEffect } from 'react';
 import Logo from "./Logo";
-import LivePlayer from './components/LivePlayer';
-import ClubCard from './components/ClubCard';
-import SoundCloudModal from './components/SoundCloudModal';
-import PostCard from './components/PostCard';
-import Schedule from './components/Schedule';
+import LivePlayer from './LivePlayer';
+import ClubCard from './ClubCard';
+import SoundCloudModal from './SoundCloudModal';
+import PostCard from './PostCard';
+import Schedule from './Schedule';
 import { CLUBS, INITIAL_POSTS, RESIDENT_DJS } from './constants';
 import { Club, Page, Post, Comment, UserProfile, UserRole } from './types';
 import { Radio, Map, Share2, Users, Plus, Camera, X, MessageSquare, Mail, Copy, CheckCircle2, Key, Send, Bell, User, Instagram as InstaIcon, ShieldCheck, Share, Headphones, Music } from 'lucide-react';
