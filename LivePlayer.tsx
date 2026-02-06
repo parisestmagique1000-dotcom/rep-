@@ -1,7 +1,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import { Play, Pause, Volume2, VolumeX, Radio, Music } from 'lucide-react';
-import { STREAM_URL } from '../constants';
+import { STREAM_URL } from './constants';
 
 const LivePlayer: React.FC = () => {
   const [isPlaying, setIsPlaying] = useState(false);
