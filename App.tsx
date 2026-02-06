@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import Logo from './components/Logo';
+import Logo from "./Logo";
 import LivePlayer from './components/LivePlayer';
 import ClubCard from './components/ClubCard';
 import SoundCloudModal from './components/SoundCloudModal';
